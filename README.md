@@ -26,3 +26,7 @@ This repository contains my version of ClipSeg, implemented from scratch in **Py
 - **FiLM Modulation**: Conditions the decoder’s features on text embeddings using feature-wise linear modulation.
 - **Multi-scale Features**: Extracts features from specific layers of the CLIP vision model (layers 3, 7, and 9) for richer representations.
 - **Output**: Produces a segmentation mask (`224x224` by default) for a given image and text prompt.
+
+## References
+
+- Lüddecke, T., & Ecker, A. (2022). *Image Segmentation Using Text and Image Prompts*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 7086–7096. [arXiv:2112.10003](https://arxiv.org/abs/2112.10003)
